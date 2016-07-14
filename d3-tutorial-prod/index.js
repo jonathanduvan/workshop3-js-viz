@@ -36,6 +36,11 @@ window.onload = function(){
                           .attr('cx', cx)
                           .attr('cy', '50px');
 
+var attributes = [{color: 'red', r: 40, cx: 100},  //example line
+                {color: 'blue' r: 25, cx: 50},
+                {color: 'pink', r: 15, cx:100},
+                {color: 'orange', r: 10, cx:100}];
+
   // ADD THE attributesExit HERE! Remember to repeat at least one of the elements of attributesEnter
   // var attributesExit = ;
   //
